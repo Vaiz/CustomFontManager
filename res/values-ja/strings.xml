@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CustomFont Manager</string>
+    <string name="sample">ABC abc 123\nあいう アイウ ｱｲｳ\n漢字 , . ! ?</string>
+    <string name="select">カスタムフォントを選択</string>
+    <string name="delete">カスタムフォントを削除</string>
+    <string name="reboot">再起動</string>
+    <string name="please_reboot">今すぐ再起動してください。</string>
+    <string name="not_support">この端末には対応していません。</string>
+	<string name="not_font">フォントではありません</string>
+    <string name="cant_open">開けません</string>
+    <string name="empty_dir">空のフォルダです</string>
+    <string name="font_preview">プレビュー</string>
+    <string name="do_you_delete">カスタムフォントを削除しますか？\n削除したフォントを戻すことはできません。</string>
+    <string name="do_you_install">カスタムフォントをインストールしますか？すでにカスタムフォントが存在する場合は上書きされます。</string>
+    <string name="installing">インストール中…</string>
+    <string name="deleting">削除中…</string>
+    <string name="loading">読み込み中…</string>
+    <string name="select_custom">「custom」を選択してください</string>
+    <string name="select_handmade_font">「オリジナル手書きフォント」を選択してください</string>
+    <string name="delete_handwriting_font">手書きフォントを選択して「このフォントを削除」を押してください。</string>
+    <string name="font_settings">カスタムフォントを設定</string>
+    <string name="completed">完了！</string>
+    <string name="please_wait">お待ちください…</string>
+    <string name="howto_change">フォント変更方法</string>
+</resources>

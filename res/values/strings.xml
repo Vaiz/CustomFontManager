@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CustomFont Manager</string>
+    <string name="sample">ABC abc 123\nあいう アイウ ｱｲｳ\n漢字 , . ! ?</string>
+    <string name="select">Select CustomFont</string>
+    <string name="delete">Delete CustomFont</string>
+    <string name="reboot">Reboot</string>
+    <string name="please_reboot">Reboot your phone right now!</string>
+    <string name="not_support">This device is not supported.</string>
+	<string name="not_font">Not font</string>
+    <string name="cant_open">Can\'t open</string>
+    <string name="empty_dir">Empty Directory</string>
+    <string name="font_preview">Font Preview</string>
+    <string name="do_you_delete">Do you delete custom font? \nCannot be undone.</string>
+    <string name="do_you_install">Do you install this font?\nIf CustomFont is existing now, it will overwrite.</string>
+    <string name="installing">Installing…</string>
+    <string name="deleting">Deleting…</string>
+    <string name="loading">Loading…</string>
+    <string name="select_custom">Select \"custom\"</string>
+    <string name="select_handmade_font">Select \"Original handwriting font\"</string>
+    <string name="delete_handwriting_font">Select the Font and press delete.</string>
+    <string name="font_settings">Font settings</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="howto_change">How to change to CustomFont</string>
+    <string name="developer">Developed by tetsu31415</string>
+    <string name="version_str">Version: </string>
+</resources>
