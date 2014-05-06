@@ -6,7 +6,7 @@
     <string name="select">カスタムフォントを選択</string>
     <string name="delete">カスタムフォントを削除</string>
     <string name="reboot">再起動</string>
-    <string name="please_reboot">今すぐ再起動してください。</string>
+    <string name="please_reboot">電源メニューから再起動してください。</string>
     <string name="not_support">この端末には対応していません。</string>
 	<string name="not_font">フォントではありません</string>
     <string name="cant_open">開けません</string>
