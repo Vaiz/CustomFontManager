@@ -133,9 +133,8 @@ public class MainActivity extends Activity
 		} else if (v==settingButton) {
 			if (commands.getManufacturer()==0) {
 				openIntents.openSharpFontSetting(true);
-				//commands.openFontSettings(this, true);
 			}else {
-				openIntents.openSharpFontSetting(true);
+				openIntents.openFujitsuFontSetting();
 			}
 		} else { // v==deleteButton
 			isDeleteMode = true;

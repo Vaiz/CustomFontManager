@@ -31,6 +31,7 @@ public class OpenIntents {
 		success = startActivity(intent, resId, ifShowToast);
 		if (success) return true;
 		
+		openFailed();
 		return false;
 	}
 	
@@ -48,6 +49,7 @@ public class OpenIntents {
 		success = startActivity(intent, resId);
 		if(success) return true;
 		
+		openFailed();
 		return false;
 	}
 	
@@ -55,7 +57,11 @@ public class OpenIntents {
 		Intent intent = new Intent();
 		intent.setClassName("com.fujitsu.mobile_phone.myfont", 
 				"com.fujitsu.mobile_phone.myfont.MyFontStartCheckActivity");
-		return startActivity(intent, R.string.delete_handwriting_font);
+		if (startActivity(intent, R.string.delete_handwriting_font)) {
+			return true;
+		}
+		openFailed();
+		return false;
 	}
 	
 	private boolean startActivity(Intent intent, int resId){
@@ -84,6 +90,8 @@ public class OpenIntents {
 		Toast.makeText(activity, activity.getString(resId), Toast.LENGTH_LONG).show();
 	}
 	
-	
+	private void openFailed() {
+		showToast(R.string.cant_open);
+	}
 	
 }

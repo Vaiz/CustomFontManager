@@ -19,8 +19,10 @@ import android.content.res.AssetManager;
 import android.os.Build;
 import android.text.Html;
 import android.text.Spanned;
+import android.text.method.LinkMovementMethod;
 import android.util.Log;
 import android.widget.TextView;
+
 public class Commands {
 
 	private final String TAG = "CUSTOMFONT";
@@ -232,6 +234,7 @@ public class Commands {
 		Spanned spanned = getHtmlFromAssets(sb.append(".html").toString());
 		if (spanned!=null) {			
 			textView.setText(spanned);
+			textView.setMovementMethod(LinkMovementMethod.getInstance());
 		}
 	}
 	
