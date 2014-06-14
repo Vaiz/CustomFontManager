@@ -218,12 +218,8 @@ public class MainActivity extends Activity
 					commands.execCommand("chmod 666 "+Strings.FONT_PATH_SHARP);
 				}				
 			}else if (mode==MODE_REBOOT) { //Reboot
-				String tag = "CUSTOMFONT";
-				Log.v(tag, "0");
 				setDialogTitle(R.string.reboot);
-				Log.v(tag, "1");
 				setDialogMessage(R.string.please_reboot);
-				Log.v(tag, "2");
 			}else if (mode==MODE_DELETE_CUSTOMFONT) { //Delete
 				setDialogMessage(R.string.deleting);
 				commands.deleteCustomFont();

@@ -7,7 +7,7 @@
     <string name="delete">Delete CustomFont</string>
     <string name="reboot">Reboot</string>
     <string name="please_reboot">Please reboot your phone on power menu.</string>
-    <string name="not_support">This device is not supported.</string>
+    <string name="not_support">Sorry, this device is not supported.</string>
 	<string name="not_font">Not font</string>
     <string name="cant_open">Can\'t open</string>
     <string name="empty_dir">Empty Directory</string>

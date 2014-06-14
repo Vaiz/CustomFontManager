@@ -49,6 +49,9 @@ public class Commands {
 	 */
 		
 	private void checkManufacturer() {
+		if (getCondition()==-1) {
+			return;
+		}
 		String manu = Build.MANUFACTURER;
 		String model = Build.MODEL;
 		if (manu.equals("SHARP")) {
@@ -215,16 +218,16 @@ public class Commands {
 	 * @param textView
 	 */
 	
-	public void setHtmlToTextView(TextView textView){
-		if (manufacturer==-1) return;
-		
+	public void setHtmlToTextView(TextView textView){		
 		boolean isJapanese = Locale.JAPAN.equals(Locale.getDefault());
 		StringBuilder sb = new StringBuilder();
 		/* For Sharp devices */
 		if (manufacturer==0) {
 			sb.append(Strings.SHARP);
-		} else { /* For Fujitsu devices */
+		} else if(manufacturer==1) { /* For Fujitsu devices */
 			sb.append(Strings.FUJITSU);
+		} else {
+			sb.append("not_supported");
 		}
 		
 		if (isJapanese) {			
